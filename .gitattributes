@@ -1,0 +1,8 @@
+* text=auto eol=lf
+LICENSE.txt -text whitespace=cr-at-eol
+/include/** text eol=lf
+/src/** text eol=lf
+/tests/** text eol=lf
+/examples/** text eol=lf
+*.png binary
+*.lib binary

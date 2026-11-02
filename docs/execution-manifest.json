@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "package_id": "BenScr.Spatial",
+  "version": "1.0.0",
+  "repository": "https://github.com/Ben-Scr/BenScr.Spatial",
+  "status": "implemented_core_tests_passed",
+  "source": "new implementation",
+  "runtime_dependencies": [],
+  "language": "C++20",
+  "local_contract_cases": 32,
+  "reference_query_comparisons": 2000,
+  "allocation_failure_success_attempts": 120,
+  "local_core_tests": "MSVC v143 Release passed",
+  "ci_matrix": ["Windows x64 MSVC v143", "Linux x64 GCC 14 ASan/UBSan", "Linux x64 Clang 18 ASan/UBSan"],
+  "package_verification": "recorded per run in artifacts/verify-*/release-manifest.json",
+  "published": false
+}

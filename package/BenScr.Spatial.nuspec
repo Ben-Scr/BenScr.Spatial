@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package>
+  <metadata>
+    <id>BenScr.Spatial</id><version>1.0.0</version><authors>Ben Schneider</authors>
+    <description>C++20 owning spatial point index with stable caller IDs, mutation, deterministic rectangle and radius queries, and bounded coordinates. Native source distribution compiled with the consumer's toolchain.</description>
+    <projectUrl>https://github.com/Ben-Scr/BenScr.Spatial</projectUrl>
+    <repository type="git" url="https://github.com/Ben-Scr/BenScr.Spatial" commit="$commit$" />
+    <license type="file">LICENSE.txt</license><readme>README.md</readme><icon>icon.png</icon>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance><tags>native spatial points geometry search cpp20</tags>
+  </metadata>
+  <files>
+    <file src="include\benscr\spatial\point_index.hpp" target="include\benscr\spatial" />
+    <file src="src\point_index.cpp" target="src" />
+    <file src="package\BenScr.Spatial.props" target="build\native" />
+    <file src="package\BenScr.Spatial.targets" target="build\native" />
+    <file src="LICENSE.txt" target="" /><file src="README.md" target="" />
+    <file src="branding\BenScr_Icon_Master.png" target="icon.png" />
+  </files>
+</package>
