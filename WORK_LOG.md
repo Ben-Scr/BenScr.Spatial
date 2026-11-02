@@ -10,6 +10,7 @@
   allocation failures for Insert, Update and copy assignment.
 - Local MSVC v143 Release passed 32 contract cases, 2,000 reference query comparisons,
   standalone header and 120 allocation-failure/success attempts, plus the example.
+- Local exact package audit, relocated CMake consumer and native NuGet Debug/Release consumers passed.
 - Full package and installed-consumer outcomes are recorded by `tools/Verify.ps1` in its
   exact per-run release manifest. CI configuration alone is not publication evidence.
 

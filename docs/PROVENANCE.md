@@ -8,7 +8,7 @@ Build, packaging and verification configuration is adapted from the public BenSc
 repository at commit `4694d53ce5086017037434aa99f6f91698386124`.
 
 The original Ben Schneider license is copied unchanged into `LICENSE.txt`:
-SHA-256 `ffed6ed7241c89d7bb6f956f96d8e9333b5f2d755aa5d2cc29526768b932a8f0`.
+SHA-256 `f6600e285e17c48188a65745d7595807e1755c72201e8eef201a9174fca18573`.
 It is a custom license requiring attribution; it is not identified as MIT.
 
 `branding/BenScr_Icon_Master.png` is the unchanged shared BenScr original, also embedded
